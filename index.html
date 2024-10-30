@@ -143,7 +143,7 @@
 
         .note:hover {
             cursor: pointer;
-            height: 45%;
+            height: 25%;
         }
 
         .note__text {
@@ -169,7 +169,11 @@
             <div class="love-notes">
                 <div class="note js-note">
                     <div class="note__text">
-                        <p>Hola amor, te quiero dar las gracias por todo, por las alegrías, por las risas, por los lindos momentos pero, por tu atención, por tu amor.</p>
+                        <p>
+                            Hola amor, te quiero dar las gracias por todo, por las alegrías, por las risas, por los lindos momentos, por tu atención, por tu amor.
+                            Eres una mujer increible, con habilidades y talentos increibles, eres super inteligente, eres PRECIOSA, atenta, cariñosa, independiente, para mi
+                            eres inefable.
+                        </p>
                     </div>
                 </div>
                 <div class="note js-note">
@@ -220,7 +224,7 @@
                                 }
                             }
                             this.classList.add("active");
-                            gsap.set(this, { height: 125 + 40 * i + "%" });
+                            gsap.set(this, { height: 120 + "%" });
                         }
                     } else if (tablet_media_query.matches) {
                         if (this.classList.contains("active")) {
